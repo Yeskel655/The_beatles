@@ -1,4 +1,11 @@
-body {margin: 0px;}
+body {
+    margin: 0px;
+    background-image: url(../images/bg1.jpg), url(../images/bg2.jpg), url(../images/bg3.jpg), url(../images/main_bg.jpg);
+    background-position: 10pt 8pt, 10pt 78pt, 10pt 150pt, center;
+    background-repeat: no-repeat;
+    background-size: 60pt, 60pt, 60pt, cover;
+    background-attachment: fixed, fixed, fixed;
+}
 .gallery-item img {width: 100%;}
 body.noscroll {overflow: hidden;}
 a[target=gallery] {font-size: 16pt;}
@@ -7,11 +14,11 @@ header h1 {
     font: bold 42pt Verdana, sans-serif;
     text-align: right;
     color: white;
-    background-color: black;
     margin-top: 8pt;
     margin-right: 8pt;
     margin-left: 80pt;
     padding-right: 12pt;
+    background-image: radial-gradient(closest-side at 25pt 50%, black, white, black, white, black);
 }
 
 main p {font: 12pt Arial, sans-serif}
